@@ -1,0 +1,11 @@
+<h1>Your Package is ready to be shipped</h1>
+<p>Your package for @Model.GetRecipient() is checked in.</p>
+<ul>
+    <li> Package Weight: @Model.GetWeight()</li>
+    <li> Package Height: @Model.GetDimX()</li>
+    <li> Package Length: @Model.GetDimY()</li>
+    <li> Package Width: @Model.GetDimZ()</li>
+    <li> Package Volume: @Model.GetVolume()</li>
+</ul>
+
+<h4> Total Shipping Cost: $ @Model.GetCostToShip()</h4>
